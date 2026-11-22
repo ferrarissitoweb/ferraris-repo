@@ -47,7 +47,7 @@ export const Gallery: React.FC = () => {
             Esempi di Componenti & Particolari Meccanici
           </h3>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Una rassegna di 20 lavorazioni meccaniche rappresentative della nostra produzione: componenti complessi per i settori Oil & Gas, valvolame di precisione e particolari torniti e fresati su disegno.
+            Una rassegna di 20 lavorazioni rappresentative della nostra produzione: componenti complessi per i settori Energetici, valvolame di precisione e particolari torniti e fresati su disegno.
           </p>
 
           {/* View Mode Toggle */}

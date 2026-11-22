@@ -20,7 +20,7 @@ export const COMPANY_INFO = {
   subtitle: "Lavorazioni Meccaniche di Alta Precisione",
   tagline: "...dal disegno alla fornitura completa nei tempi stabiliti",
   experienceYears: 25,
-  specialization: "Oil & Gas, Prototipazione e Serie",
+  specialization: "Settore Metalmeccanico, Prototipazione e Serie",
   address: "Via Gritti, 11",
   postalCode: "24020",
   city: "Pradalunga",
@@ -36,9 +36,9 @@ export const COMPANY_INFO = {
 export const SERVICES: Service[] = [
   {
     id: "tornitura-cnc",
-    title: "Tornitura Meccanica",
-    shortDesc: "Tornitura ad alta precisione per componenti meccanici fino a 650mm di diametro.",
-    fullDesc: "Specializzati nella lavorazione al tornio di componenti complessi per il settore energetico e industriale. Garantiamo tolleranze ristrette e finiture superficiali di alto livello.",
+    title: "Tornitura di Precisione",
+    shortDesc: "Tornitura ad alta precisione per componenti fino a 650mm di diametro.",
+    fullDesc: "Specializzati nella lavorazione al tornio di componenti complessi per il settore metalmeccanico e industriale. Garantiamo tolleranze ristrette e finiture superficiali di alto livello.",
     iconName: "Disc",
     features: [
       "Tornitura massima diametro 650 mm",
@@ -62,14 +62,14 @@ export const SERVICES: Service[] = [
   },
   {
     id: "oil-gas-specialization",
-    title: "Specializzazione Oil & Gas",
-    shortDesc: "Componenti per l'industria petrolifera e valvolame ad alte prestazioni.",
-    fullDesc: "Esperienza pluridecennale nella realizzazione di corpi valvole, componenti per attuatori e flange destinate agli impianti Oil & Gas più demanding.",
+    title: "Specializzazione Settore Metalmeccanico",
+    shortDesc: "Componenti per l'industria energetica e valvolame ad alte prestazioni.",
+    fullDesc: "Esperienza pluridecennale nella realizzazione di corpi valvole, componenti per attuatori e flange destinate agli impianti energetici più esigenti.",
     iconName: "Flame",
     features: [
-      "Lavorazione valvole e attuatori",
-      "Rispettate le normative stringenti di settore",
-      "Tracciabilità materiali e lavorazioni",
+      "Componentistica per valvole e attuatori",
+      "Conformità alle normative stringenti di settore",
+      "Tracciabilità completa materiali e lavorazioni",
       "Fornitura completa chiavi in mano"
     ]
   },
@@ -145,15 +145,15 @@ export interface GalleryImage {
 }
 
 export const GALLERY_IMAGES: GalleryImage[] = [
-  { id: 1, src: "gallery/20171027_150628.png", title: "Lavorazione Meccanica di Precisione", description: "Operazione di tornitura su componente in acciaio inossidabile per applicazioni meccaniche di precisione." },
-  { id: 2, src: "gallery/20171214_221623.png", title: "Componente Industriale Tornito", description: "Particolare meccanico tornito, rifinito con tolleranze ristrette per componenti di trasmissione." },
-  { id: 3, src: "gallery/20171214_232632.png", title: "Particolare Meccanico Oil & Gas", description: "Componente critico destinato al settore Oil & Gas, lavorato su tornio CNC." },
+  { id: 1, src: "gallery/20171027_150628.png", title: "Lavorazione di Precisione", description: "Operazione di tornitura su componente in acciaio inossidabile per applicazioni di alta precisione." },
+  { id: 2, src: "gallery/20171214_221623.png", title: "Componente Industriale Tornito", description: "Particolare tornito, rifinito con tolleranze ristrette per componenti di trasmissione." },
+  { id: 3, src: "gallery/20171214_232632.png", title: "Particolare per Settore Metalmeccanico", description: "Componente critico destinato al settore metalmeccanico, lavorato su tornio CNC." },
   { id: 4, src: "gallery/20171219_081502.png", title: "Flangia di Alta Precisione", description: "Flangia di tenuta ad alte prestazioni, lavorata per garantire massima tenuta in condizioni gravose." },
   { id: 5, src: "gallery/20171219_081509.png", title: "Lavorazione su Centro di Lavoro", description: "Fase di fresatura su centro di lavoro multi-pallet, con focus sulla precisione delle geometrie interne." },
   { id: 6, src: "gallery/20180105_064311.png", title: "Particolare Meccanico Complesso", description: "Componente con geometria complessa, ottenuto mediante fresatura multiasse per applicazioni speciali." },
   { id: 7, src: "gallery/20180105_064534.png", title: "Finitura Superficiale di Precisione", description: "Dettaglio della finitura superficiale su componente meccanico, conforme ai requisiti di rugosità richiesti." },
   { id: 8, src: "gallery/20181009_203431.png", title: "Componente Valvola Meccanica", description: "Parte integrante di un sistema valvolare, lavorata per accoppiamenti di alta precisione." },
-  { id: 9, src: "gallery/20200116_221625.png", title: "Corpo Valvola Oil & Gas", description: "Corpo valvola realizzato per il settore petrolifero, sottoposto a rigorosi controlli dimensionali." },
+  { id: 9, src: "gallery/20200116_221625.png", title: "Corpo Valvola Metalmeccanico", description: "Corpo valvola realizzato per il settore metalmeccanico, sottoposto a rigorosi controlli dimensionali." },
   { id: 10, src: "gallery/20200721_001944.png", title: "Lavorazione Speciale Inox", description: "Lavorazione di tornitura su lega Inconel, dimostrazione della capacità di gestire materiali ad alta resistenza." },
   { id: 11, src: "gallery/20201010_161904.png", title: "Particolare Tornito ad Alta Tolleranza", description: "Componente meccanico con tolleranze centesimali, pronto per la fase di montaggio." },
   { id: 12, src: "gallery/20201023_112329.png", title: "Dettaglio Foratura e Barenatura", description: "Dettaglio tecnico su operazione di barenatura interna per alloggiamento cuscinetti." },

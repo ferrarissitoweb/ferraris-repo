@@ -6,39 +6,39 @@ export const About: React.FC = () => {
   return (
     <section id="chi-siamo" className="py-20 bg-slate-900 text-white relative border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-xs font-bold uppercase tracking-widest text-red-500 mb-2">Chi Siamo</h2>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-white">
-            Esperienza, Precisione e Affidabilità nelle Lavorazioni Meccaniche
+            Esperienza, Precisione e Affidabilità nelle Lavorazioni di Precisione
           </h3>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
-            Un punto di riferimento tecnico per l'industria meccanica e Oil & Gas da oltre un quarto di secolo.
+            Un punto di riferimento tecnico per l'industria delle lavorazioni da oltre un quarto di secolo.
           </p>
         </div>
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           {/* Left: Presentation & Story */}
           <div className="lg:col-span-7 space-y-6">
             <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800 shadow-xl relative">
               <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-2 bg-red-600 text-white font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
                 25+ Anni sul campo
               </div>
-              
+
               <h4 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
                 <History className="w-5 h-5 text-red-500" />
                 <span>La Nostra Storia & Missione</span>
               </h4>
 
               <p className="text-slate-300 leading-relaxed text-sm sm:text-base">
-                La <strong className="text-white">FERRARIS MECCANICA S.a.s.</strong> ha maturato un'esperienza di oltre 25 anni nei vari settori della meccanica di precisione, con una forte specializzazione nel settore <strong className="text-red-400 font-semibold">Oil & Gas</strong>.
+                La <strong className="text-white">FERRARIS MECCANICA S.a.s.</strong> ha maturato un'esperienza di oltre 25 anni, con una forte specializzazione nella produzione di componenti critici per il settore <strong className="text-red-400 font-semibold"> metalmeccanico</strong>.
               </p>
 
               <p className="text-slate-300 leading-relaxed text-sm sm:text-base mt-4">
-                Lavoriamo quotidianamente con attrezzature complesse per risolvere le sfide produttive dei nostri clienti. 
+                Lavoriamo quotidianamente con attrezzature complesse per risolvere le sfide produttive dei nostri clienti.
                 Che si tratti di grandi quantità programmate, di piccole serie o di singoli pezzi prototipo, mettiamo a disposizione un'organizzazione snella, efficiente e altamente qualificata.
               </p>
 
@@ -57,7 +57,7 @@ export const About: React.FC = () => {
 
           {/* Right: Key Strengths Grid */}
           <div className="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
-            
+
             <div className="p-5 rounded-xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 transition-all flex items-start gap-4">
               <div className="p-3 rounded-lg bg-red-500/10 text-red-400 border border-red-500/20 shrink-0">
                 <Target className="w-6 h-6" />
@@ -75,7 +75,7 @@ export const About: React.FC = () => {
                 <ShieldCheck className="w-6 h-6" />
               </div>
               <div>
-                <h5 className="font-bold text-white text-base">Know-How Oil & Gas</h5>
+                <h5 className="font-bold text-white text-base">Competenze Settore Metalmeccanico</h5>
                 <p className="text-slate-400 text-xs mt-1">
                   Profonda conoscenza dei materiali critici, delle tolleranze di tenuta e dei capitolati di settore.
                 </p>

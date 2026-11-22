@@ -34,7 +34,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
             {/* Subtitle */}
             <p className="text-lg sm:text-xl text-slate-300 max-w-2xl font-light leading-relaxed">
-              Oltre <strong className="text-white font-semibold">25 anni di esperienza</strong> al servizio dell'industria <strong className="text-white font-semibold">Oil & Gas</strong>.
+              Oltre <strong className="text-white font-semibold">25 anni di esperienza</strong> al servizio dell'industria <strong className="text-white font-semibold">metalmeccanica</strong>.
               Dalla prototipazione alla produzione di grandi serie programmate, garantiamo massima affidabilità e rispetto rigoroso dei tempi.
             </p>
 
@@ -53,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 <div className="text-slate-400 text-xs">Max Tornitura</div>
               </div>
               <div className="bg-slate-900/80 p-3 rounded-lg border border-slate-800">
-                <div className="text-red-400 font-bold text-lg">Oil & Gas</div>
+                <div className="text-red-400 font-bold text-lg">Metalmeccanico</div>
                 <div className="text-slate-400 text-xs">Specializzati</div>
               </div>
             </div>

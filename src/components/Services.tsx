@@ -25,7 +25,7 @@ export const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-xs font-bold uppercase tracking-widest text-red-500 mb-2">I Nostri Servizi</h2>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-white">
-            Soluzioni Meccaniche Complete per la Tua Produzione
+            Soluzioni di Precisione Complete per la Tua Produzione
           </h3>
           <p className="mt-4 text-slate-400 text-base sm:text-lg">
             Dalla lavorazione grezza al pezzo finito e collaudato, garantiamo massima flessibilità e rispetto dei requisiti di progetto.
